@@ -34,3 +34,9 @@ Sigue las instrucciones en pantalla para completar la creación del superusuario
 ### 3. Acceder a tu Aplicación
 
 Una vez que tu contenedor esté en funcionamiento, podrás acceder a tu aplicación Django desde tu navegador web visitando `http://localhost:8000`.
+
+### 4. Cambiar el usuario de los archivos
+
+```bash
+sudo chown -R $USER .
+```
